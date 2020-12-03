@@ -1,0 +1,190 @@
+*{
+    padding: 0px;
+    margin: 1px;
+}
+
+.contedor{
+    font-family: 'Lemonada', cursive;
+    display: grid;
+    text-align: center;
+    height: 80vh;
+    gap: 1em;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: repeat(3, auto);
+    grid-template-areas:
+    "E1 E1 E1"
+    "NAV NAV NAV"
+    "E2 E3 E4"
+    "E5 E6 E7"
+    "E8 E9 E10"
+    "E11 E12 E13"
+    "E15 E16 E17"
+    "E14 E14 E14";
+}
+
+.Elemento1{
+    background: rgba(183,222,237,1);
+    background: -moz-linear-gradient(left, rgba(183,222,237,1) 0%, rgba(113,206,239,1) 50%, rgba(33,180,226,1) 51%, rgba(183,222,237,1) 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(183,222,237,1)), color-stop(50%, rgba(113,206,239,1)), color-stop(51%, rgba(33,180,226,1)), color-stop(100%, rgba(183,222,237,1)));
+    background: -webkit-linear-gradient(left, rgba(183,222,237,1) 0%, rgba(113,206,239,1) 50%, rgba(33,180,226,1) 51%, rgba(183,222,237,1) 100%);
+    background: -o-linear-gradient(left, rgba(183,222,237,1) 0%, rgba(113,206,239,1) 50%, rgba(33,180,226,1) 51%, rgba(183,222,237,1) 100%);
+    background: -ms-linear-gradient(left, rgba(183,222,237,1) 0%, rgba(113,206,239,1) 50%, rgba(33,180,226,1) 51%, rgba(183,222,237,1) 100%);
+    background: linear-gradient(to right, rgba(183,222,237,1) 0%, rgba(113,206,239,1) 50%, rgba(33,180,226,1) 51%, rgba(183,222,237,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b7deed', endColorstr='#b7deed', GradientType=1 );
+    grid-area: E1;
+}
+
+.nav{
+    background: #000000;
+}
+.nav{grid-area: NAV;}
+.Elemento2{grid-area: E2;}
+.Elemento3{grid-area: E3;}
+.Elemento4{grid-area: E4;}
+.Elemento5{grid-area: E5;}
+.Elemento6{grid-area: E6;}
+.Elemento7{grid-area: E7;}
+.Elemento8{grid-area: E8;}
+.Elemento9{grid-area: E9;}
+.Elemento10{grid-area: E10;}
+.Elemento11{grid-area: E11;}
+.Elemento12{grid-area: E12;}
+.Elemento13{grid-area: E13;}
+.Elemento15{grid-area: E15;}
+.Elemento16{grid-area: E16;}
+.Elemento17{grid-area: E17;}
+
+.Elemento14{grid-area: E14; background: black; color: white; height: 40px;}
+
+.contedor > .Elemento2:hover,
+.contedor > .Elemento3:hover,
+.contedor > .Elemento4:hover,
+.contedor > .Elemento5:hover,
+.contedor > .Elemento6:hover,
+.contedor > .Elemento7:hover,
+.contedor > .Elemento8:hover,
+.contedor > .Elemento9:hover,
+.contedor > .Elemento10:hover,
+.contedor > .Elemento11:hover,
+.contedor > .Elemento12:hover,
+.contedor > .Elemento13:hover,
+.contedor > .Elemento15:hover,
+.contedor > .Elemento16:hover,
+.contedor > .Elemento17:hover{
+    cursor: pointer;
+    color: #000000;
+    background: rgba(168,189,106,1);
+    background: -moz-linear-gradient(left, rgba(168,189,106,1) 0%, rgba(168,189,106,1) 9%, rgba(168,189,106,1) 19%, rgba(158,184,96,1) 26%, rgba(142,176,80,1) 38%, rgba(121,165,59,1) 53%, rgba(100,155,38,1) 68%, rgba(87,149,25,1) 77%, rgba(76,143,14,1) 85%, rgba(76,143,14,1) 93%, rgba(76,143,14,1) 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(168,189,106,1)), color-stop(9%, rgba(168,189,106,1)), color-stop(19%, rgba(168,189,106,1)), color-stop(26%, rgba(158,184,96,1)), color-stop(38%, rgba(142,176,80,1)), color-stop(53%, rgba(121,165,59,1)), color-stop(68%, rgba(100,155,38,1)), color-stop(77%, rgba(87,149,25,1)), color-stop(85%, rgba(76,143,14,1)), color-stop(93%, rgba(76,143,14,1)), color-stop(100%, rgba(76,143,14,1)));
+    background: -webkit-linear-gradient(left, rgba(168,189,106,1) 0%, rgba(168,189,106,1) 9%, rgba(168,189,106,1) 19%, rgba(158,184,96,1) 26%, rgba(142,176,80,1) 38%, rgba(121,165,59,1) 53%, rgba(100,155,38,1) 68%, rgba(87,149,25,1) 77%, rgba(76,143,14,1) 85%, rgba(76,143,14,1) 93%, rgba(76,143,14,1) 100%);
+    background: -o-linear-gradient(left, rgba(168,189,106,1) 0%, rgba(168,189,106,1) 9%, rgba(168,189,106,1) 19%, rgba(158,184,96,1) 26%, rgba(142,176,80,1) 38%, rgba(121,165,59,1) 53%, rgba(100,155,38,1) 68%, rgba(87,149,25,1) 77%, rgba(76,143,14,1) 85%, rgba(76,143,14,1) 93%, rgba(76,143,14,1) 100%);
+    background: -ms-linear-gradient(left, rgba(168,189,106,1) 0%, rgba(168,189,106,1) 9%, rgba(168,189,106,1) 19%, rgba(158,184,96,1) 26%, rgba(142,176,80,1) 38%, rgba(121,165,59,1) 53%, rgba(100,155,38,1) 68%, rgba(87,149,25,1) 77%, rgba(76,143,14,1) 85%, rgba(76,143,14,1) 93%, rgba(76,143,14,1) 100%);
+    background: linear-gradient(to right, rgba(168,189,106,1) 0%, rgba(168,189,106,1) 9%, rgba(168,189,106,1) 19%, rgba(158,184,96,1) 26%, rgba(142,176,80,1) 38%, rgba(121,165,59,1) 53%, rgba(100,155,38,1) 68%, rgba(87,149,25,1) 77%, rgba(76,143,14,1) 85%, rgba(76,143,14,1) 93%, rgba(76,143,14,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a8bd6a', endColorstr='#4c8f0e', GradientType=1 );
+}
+
+.contedor > .nav,
+.contedor > .Elemento2,
+.contedor > .Elemento3,
+.contedor > .Elemento4,
+.contedor > .Elemento5,
+.contedor > .Elemento6,
+.contedor > .Elemento7,
+.contedor > .Elemento8,
+.contedor > .Elemento9,
+.contedor > .Elemento10,
+.contedor > .Elemento11,
+.contedor > .Elemento12,
+.contedor > .Elemento13,
+.contedor > .Elemento15,
+.contedor > .Elemento16,
+.contedor > .Elemento17{
+    background: #2d3436;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.5s ease;
+}
+
+div table tr td{
+    text-align: center;
+}
+
+ul{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+ul li{
+    display: inline-block;
+}
+
+ul li a{
+    color:white;
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+}
+
+ul li a:hover{
+    cursor: pointer;
+    color: #000000;
+    background: rgba(168,189,106,1);
+    background: -moz-linear-gradient(left, rgba(168,189,106,1) 0%, rgba(168,189,106,1) 9%, rgba(168,189,106,1) 19%, rgba(158,184,96,1) 26%, rgba(142,176,80,1) 38%, rgba(121,165,59,1) 53%, rgba(100,155,38,1) 68%, rgba(87,149,25,1) 77%, rgba(76,143,14,1) 85%, rgba(76,143,14,1) 93%, rgba(76,143,14,1) 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(168,189,106,1)), color-stop(9%, rgba(168,189,106,1)), color-stop(19%, rgba(168,189,106,1)), color-stop(26%, rgba(158,184,96,1)), color-stop(38%, rgba(142,176,80,1)), color-stop(53%, rgba(121,165,59,1)), color-stop(68%, rgba(100,155,38,1)), color-stop(77%, rgba(87,149,25,1)), color-stop(85%, rgba(76,143,14,1)), color-stop(93%, rgba(76,143,14,1)), color-stop(100%, rgba(76,143,14,1)));
+    background: -webkit-linear-gradient(left, rgba(168,189,106,1) 0%, rgba(168,189,106,1) 9%, rgba(168,189,106,1) 19%, rgba(158,184,96,1) 26%, rgba(142,176,80,1) 38%, rgba(121,165,59,1) 53%, rgba(100,155,38,1) 68%, rgba(87,149,25,1) 77%, rgba(76,143,14,1) 85%, rgba(76,143,14,1) 93%, rgba(76,143,14,1) 100%);
+    background: -o-linear-gradient(left, rgba(168,189,106,1) 0%, rgba(168,189,106,1) 9%, rgba(168,189,106,1) 19%, rgba(158,184,96,1) 26%, rgba(142,176,80,1) 38%, rgba(121,165,59,1) 53%, rgba(100,155,38,1) 68%, rgba(87,149,25,1) 77%, rgba(76,143,14,1) 85%, rgba(76,143,14,1) 93%, rgba(76,143,14,1) 100%);
+    background: -ms-linear-gradient(left, rgba(168,189,106,1) 0%, rgba(168,189,106,1) 9%, rgba(168,189,106,1) 19%, rgba(158,184,96,1) 26%, rgba(142,176,80,1) 38%, rgba(121,165,59,1) 53%, rgba(100,155,38,1) 68%, rgba(87,149,25,1) 77%, rgba(76,143,14,1) 85%, rgba(76,143,14,1) 93%, rgba(76,143,14,1) 100%);
+    background: linear-gradient(to right, rgba(168,189,106,1) 0%, rgba(168,189,106,1) 9%, rgba(168,189,106,1) 19%, rgba(158,184,96,1) 26%, rgba(142,176,80,1) 38%, rgba(121,165,59,1) 53%, rgba(100,155,38,1) 68%, rgba(87,149,25,1) 77%, rgba(76,143,14,1) 85%, rgba(76,143,14,1) 93%, rgba(76,143,14,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a8bd6a', endColorstr='#4c8f0e', GradientType=1 );
+}
+
+@media all and (max-width: 1000px){
+   .contedor{
+       grid-template-columns: 1fr 1fr;
+       gap: 1em;
+       grid-template-rows: repeat(2, auto);
+       grid-template-areas:
+       "E1 E1"
+       "NAV NAV"
+       "E2 E3"
+       "E4 E5" 
+       "E6 E7"
+       "E8 E9" 
+       "E10 E11"
+       "E12 E13"
+       "E15 E16"
+       "E17 E17"
+       "E14 E14";
+   } 
+}
+
+@media all and (max-width: 600px){
+    .contedor{
+        height: 200vh;
+        grid-template-columns: 1fr;
+        gap: 1em;
+        grid-template-rows: repeat(1, auto);
+        grid-template-areas:
+        "E1"
+        "NAV"
+        "E2"
+        "E3"
+        "E4"
+        "E5" 
+        "E6"
+        "E7"
+        "E8"
+        "E9" 
+        "E10"
+        "E11"
+        "E12"
+        "E13"
+        "E15"
+        "E16"
+        "E17"
+        "E14";
+    }
+}

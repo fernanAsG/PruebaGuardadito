@@ -1,0 +1,222 @@
+@font-face{
+    font-family: 'navidad';
+    font-style: normal;
+    font-weight: 400;
+    src: local("The Perfect Christmas"),
+    local("navidad"),
+    url(../font/navidad.ttf) format('truetype');
+}
+
+*{
+    padding: 1px;
+    margin: 1px;
+    border: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+}
+
+.Elemento1 {
+    background: linear-gradient(#0c1d38,#1a3158) 
+}
+
+.Elemento1 > h1{
+    font-family: 'navidad';
+    text-align: center;
+    width: 100%;
+    color: #fff;
+    font-size: 4em;
+    position: absolute;
+    padding-top: 10px;
+}
+
+.contedor{
+    font-family: 'Lemonada', cursive;
+    display: grid;
+    text-align: center;
+    height: 80vh;
+    gap: 0.5em;
+    grid-template-columns: repeat(3, auto);
+    grid-template-areas:
+    "E1 E1 E1"
+    "NAV NAV NAV"
+    "E2 E3 E4"
+    "E5 E6 E7"
+    "E8 E9 E10"
+    "E11 E12 E13"
+    "E15 E16 E17"
+    "E14 E14 E14";
+}
+.Elemento1{grid-area: E1;}
+.nav{grid-area: NAV;}
+.Elemento2{grid-area: E2;}
+.Elemento3{grid-area: E3;}
+.Elemento4{grid-area: E4;}
+.Elemento5{grid-area: E5;}
+.Elemento6{grid-area: E6;}
+.Elemento7{grid-area: E7;}
+.Elemento8{grid-area: E8;}
+.Elemento9{grid-area: E9;}
+.Elemento10{grid-area: E10;}
+.Elemento11{grid-area: E11;}
+.Elemento12{grid-area: E12;}
+.Elemento13{grid-area: E13;}
+.Elemento14{grid-area: E14;}
+.Elemento15{grid-area: E15;}
+.Elemento16{grid-area: E16;}
+.Elemento17{grid-area: E17;}
+
+.Elemento14{background: black; color: white; height: 40px;}
+
+.contedor > .Elemento2:hover,
+.contedor > .Elemento3:hover,
+.contedor > .Elemento4:hover,
+.contedor > .Elemento5:hover,
+.contedor > .Elemento6:hover,
+.contedor > .Elemento7:hover,
+.contedor > .Elemento8:hover,
+.contedor > .Elemento9:hover,
+.contedor > .Elemento10:hover,
+.contedor > .Elemento11:hover,
+.contedor > .Elemento12:hover,
+.contedor > .Elemento13:hover,
+.contedor > .Elemento15:hover,
+.contedor > .Elemento16:hover,
+.contedor > .Elemento17:hover{
+    cursor: pointer;
+    color: #000000;
+    background: rgba(168,189,106,1);
+    background: -moz-linear-gradient(left, rgba(168,189,106,1) 0%, rgba(168,189,106,1) 9%, rgba(168,189,106,1) 19%, rgba(158,184,96,1) 26%, rgba(142,176,80,1) 38%, rgba(121,165,59,1) 53%, rgba(100,155,38,1) 68%, rgba(87,149,25,1) 77%, rgba(76,143,14,1) 85%, rgba(76,143,14,1) 93%, rgba(76,143,14,1) 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(168,189,106,1)), color-stop(9%, rgba(168,189,106,1)), color-stop(19%, rgba(168,189,106,1)), color-stop(26%, rgba(158,184,96,1)), color-stop(38%, rgba(142,176,80,1)), color-stop(53%, rgba(121,165,59,1)), color-stop(68%, rgba(100,155,38,1)), color-stop(77%, rgba(87,149,25,1)), color-stop(85%, rgba(76,143,14,1)), color-stop(93%, rgba(76,143,14,1)), color-stop(100%, rgba(76,143,14,1)));
+    background: -webkit-linear-gradient(left, rgba(168,189,106,1) 0%, rgba(168,189,106,1) 9%, rgba(168,189,106,1) 19%, rgba(158,184,96,1) 26%, rgba(142,176,80,1) 38%, rgba(121,165,59,1) 53%, rgba(100,155,38,1) 68%, rgba(87,149,25,1) 77%, rgba(76,143,14,1) 85%, rgba(76,143,14,1) 93%, rgba(76,143,14,1) 100%);
+    background: -o-linear-gradient(left, rgba(168,189,106,1) 0%, rgba(168,189,106,1) 9%, rgba(168,189,106,1) 19%, rgba(158,184,96,1) 26%, rgba(142,176,80,1) 38%, rgba(121,165,59,1) 53%, rgba(100,155,38,1) 68%, rgba(87,149,25,1) 77%, rgba(76,143,14,1) 85%, rgba(76,143,14,1) 93%, rgba(76,143,14,1) 100%);
+    background: -ms-linear-gradient(left, rgba(168,189,106,1) 0%, rgba(168,189,106,1) 9%, rgba(168,189,106,1) 19%, rgba(158,184,96,1) 26%, rgba(142,176,80,1) 38%, rgba(121,165,59,1) 53%, rgba(100,155,38,1) 68%, rgba(87,149,25,1) 77%, rgba(76,143,14,1) 85%, rgba(76,143,14,1) 93%, rgba(76,143,14,1) 100%);
+    background: linear-gradient(to right, rgba(168,189,106,1) 0%, rgba(168,189,106,1) 9%, rgba(168,189,106,1) 19%, rgba(158,184,96,1) 26%, rgba(142,176,80,1) 38%, rgba(121,165,59,1) 53%, rgba(100,155,38,1) 68%, rgba(87,149,25,1) 77%, rgba(76,143,14,1) 85%, rgba(76,143,14,1) 93%, rgba(76,143,14,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a8bd6a', endColorstr='#4c8f0e', GradientType=1 );
+}
+
+.contedor > .nav,
+.contedor > .Elemento2,
+.contedor > .Elemento3,
+.contedor > .Elemento4,
+.contedor > .Elemento5,
+.contedor > .Elemento6,
+.contedor > .Elemento7,
+.contedor > .Elemento8,
+.contedor > .Elemento9,
+.contedor > .Elemento10,
+.contedor > .Elemento11,
+.contedor > .Elemento12,
+.contedor > .Elemento13,
+.contedor > .Elemento15,
+.contedor > .Elemento16,
+.contedor > .Elemento17{
+    background: #2d3436;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.5s ease;
+}
+
+ul{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+ul li{
+    display: inline-block;
+}
+
+ul li a{
+    color:white;
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+}
+
+ul li a:hover{
+    cursor: pointer;
+    color: #000000;
+    background: rgba(168,189,106,1);
+    background: -moz-linear-gradient(left, rgba(168,189,106,1) 0%, rgba(168,189,106,1) 9%, rgba(168,189,106,1) 19%, rgba(158,184,96,1) 26%, rgba(142,176,80,1) 38%, rgba(121,165,59,1) 53%, rgba(100,155,38,1) 68%, rgba(87,149,25,1) 77%, rgba(76,143,14,1) 85%, rgba(76,143,14,1) 93%, rgba(76,143,14,1) 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(168,189,106,1)), color-stop(9%, rgba(168,189,106,1)), color-stop(19%, rgba(168,189,106,1)), color-stop(26%, rgba(158,184,96,1)), color-stop(38%, rgba(142,176,80,1)), color-stop(53%, rgba(121,165,59,1)), color-stop(68%, rgba(100,155,38,1)), color-stop(77%, rgba(87,149,25,1)), color-stop(85%, rgba(76,143,14,1)), color-stop(93%, rgba(76,143,14,1)), color-stop(100%, rgba(76,143,14,1)));
+    background: -webkit-linear-gradient(left, rgba(168,189,106,1) 0%, rgba(168,189,106,1) 9%, rgba(168,189,106,1) 19%, rgba(158,184,96,1) 26%, rgba(142,176,80,1) 38%, rgba(121,165,59,1) 53%, rgba(100,155,38,1) 68%, rgba(87,149,25,1) 77%, rgba(76,143,14,1) 85%, rgba(76,143,14,1) 93%, rgba(76,143,14,1) 100%);
+    background: -o-linear-gradient(left, rgba(168,189,106,1) 0%, rgba(168,189,106,1) 9%, rgba(168,189,106,1) 19%, rgba(158,184,96,1) 26%, rgba(142,176,80,1) 38%, rgba(121,165,59,1) 53%, rgba(100,155,38,1) 68%, rgba(87,149,25,1) 77%, rgba(76,143,14,1) 85%, rgba(76,143,14,1) 93%, rgba(76,143,14,1) 100%);
+    background: -ms-linear-gradient(left, rgba(168,189,106,1) 0%, rgba(168,189,106,1) 9%, rgba(168,189,106,1) 19%, rgba(158,184,96,1) 26%, rgba(142,176,80,1) 38%, rgba(121,165,59,1) 53%, rgba(100,155,38,1) 68%, rgba(87,149,25,1) 77%, rgba(76,143,14,1) 85%, rgba(76,143,14,1) 93%, rgba(76,143,14,1) 100%);
+    background: linear-gradient(to right, rgba(168,189,106,1) 0%, rgba(168,189,106,1) 9%, rgba(168,189,106,1) 19%, rgba(158,184,96,1) 26%, rgba(142,176,80,1) 38%, rgba(121,165,59,1) 53%, rgba(100,155,38,1) 68%, rgba(87,149,25,1) 77%, rgba(76,143,14,1) 85%, rgba(76,143,14,1) 93%, rgba(76,143,14,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a8bd6a', endColorstr='#4c8f0e', GradientType=1 );
+}
+
+.piso{
+    position: absolute;
+    bottom: 18%;
+    background: #fff;
+    width: 100%;
+    height: 100px;
+    border-top-right-radius: 70%;
+    border-top-left-radius: 70%;
+}
+
+.santa{
+    background-image: url(../Assets/santa.gif);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 300px;
+    height: 100px;
+    transform: rotateY(180deg);
+    position: absolute;
+    top: 150px;
+    left: -300px;
+    animation: santa 10s infinite ease-in-out;
+}
+
+@keyframes santa{
+    0%{
+        transform: translate(-50px,20px) rotateY(180deg) scale(1)
+    }
+
+    10%{
+        transform: translate(400px,100px) rotateY(180deg) scale(1.2)
+    }
+
+    20%{
+        transform: translate(800px,20px) rotateY(180deg) scale(.7)
+    }
+
+    30%{
+        transform: translate(1200px,100px) rotateY(180deg) scale(1.2)
+    }
+
+    40%{
+        transform: translate(1600px,20px) rotateY(180deg) scale(1.7)
+    }
+
+    50%{
+        transform: translate(1850px,100px) rotateY(180deg) scale(1.2)
+    }
+
+    60%{
+        transform: translate(1500px,20px)  scale(1.2)
+    }
+
+    70%{
+        transform: translate(1000px,100px)  scale(1.2)
+    }
+
+    80%{
+        transform: translate(500px,20px)  scale(1.2)
+    }
+
+    90%{
+        transform: translate(200px,100px)  scale(1.2)
+    }
+
+    100%{
+        transform: translate(-300px,20px)  scale(1.2)
+    }
+}
